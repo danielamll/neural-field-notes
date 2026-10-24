@@ -40,6 +40,6 @@
     "remoteUser": "node",
     "features": {
         "ghcr.io/devcontainers/features/go:1": {},
-        "ghcr.io/prplecake/devcontainer-features/dart-sass:1": {}
+        
     }
 }

@@ -1,3 +1,76 @@
-/*
-    You can add your own custom styles here.
-*/
+
+/* Neural Field Notes — Custom colour palette */
+
+/* LIGHT MODE */
+:root {
+    --body-background: #F3EFE8;
+    --card-background: #FCFAF6;
+
+    --accent-color: #713D4B;
+    --accent-color-darker: #5B303D;
+    --accent-color-text: #FFFFFF;
+
+    --body-text-color: #565961;
+    --card-text-color-main: #292B30;
+    --card-text-color-secondary: #5B6068;
+    --card-separator-color: #D8CFC7;
+}
+
+/* DARK MODE */
+:root[data-scheme="dark"] {
+    --body-background: #1E2026;
+    --card-background: #292B33;
+
+    --accent-color: #C398A5;
+    --accent-color-darker: #D3ABB6;
+    --accent-color-text: #1E2026;
+
+    --body-text-color: #C5C5CB;
+    --card-text-color-main: #F0ECE8;
+    --card-text-color-secondary: #B7B8BF;
+    --card-separator-color: #44444C;
+}
+
+
+
+/* Neural Field Notes — Article labels */
+
+
+.article-tags a {
+    background: #E5DDE0 !important;
+    color: #713D4B !important;
+}
+
+
+/* Neural Field Notes — Category Colours */
+
+/* Neural Dynamics — Slate blue */
+.article-category a[href*="/categories/neural-dynamics/"] {
+    background-color: #445D70 !important;
+    color: #FFFFFF !important;
+}
+
+/* Computational Neuroscience — Purple */
+.article-category a[href*="/categories/computational-neuroscience/"] {
+    background-color: #6C5B85 !important;
+    color: #FFFFFF !important;
+}
+
+/* Mathematical Methods — Terracotta */
+.article-category a[href*="/categories/mathematical-methods/"] {
+    background-color: #B77959 !important;
+    color: #FFFFFF !important;
+}
+
+/* Neurotechnology — Teal */
+.article-category a[href*="/categories/neurotechnology/"] {
+    background-color: #3D7881 !important;
+    color: #FFFFFF !important;
+}
+
+/* Research Notes — Burgundy */
+.article-category a[href*="/categories/research-notes/"] {
+    background-color: #713D4B !important;
+    color: #FFFFFF !important;
+}
+

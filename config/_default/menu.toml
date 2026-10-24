@@ -16,9 +16,9 @@
         icon = "brand-github"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "instagram"
+    name       = "Instagram"
+    url        = "https://www.instagram.com/theneuralfieldnotes/"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "brand-instagram"
