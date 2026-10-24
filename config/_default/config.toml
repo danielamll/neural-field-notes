@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://danielamll.github.io/neural-field-notes/"
+baseurl = "https://neuralfieldnotes.com/"
 locale  = "en-us"
 title   = "Neural Field Notes"
 
